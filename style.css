@@ -1,0 +1,134 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+      background-size: cover;
+    }
+
+    body {
+      background-color: #0d0b2b;
+      color: white;
+      line-height: 1.6;
+      padding: 1rem;
+    }
+
+    header {
+      background-color: #1b1a40;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    header h1 {
+      color: #7a6ff0;
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: #d1d1f0;
+      margin-left: 1rem;
+      text-decoration: none;
+      font-size: 1rem;
+      
+    }
+
+    section {
+      padding: 2rem;
+    }
+
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .hero-text {
+      max-width: 600px;
+    }
+
+    .hero-text h2 {
+      color: #7a6ff0;
+      font-size: 2rem;
+    }
+
+    .hero-text p {
+      margin: 1rem 0;
+    }
+
+    .btn {
+      background-color: #7a6ff0;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+        text-decoration: none;
+         display: inline-block;
+      
+    }
+
+    .profile-img {
+      border-radius: 50%;
+      width: 240px;
+      height: 300px;
+      object-fit:fit;
+      border: 5px solid #7a6ff0;
+      
+    }
+
+    h3 {
+      color: #7a6ff0;
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+      
+    }
+
+    .contact-buttons a {
+      display: inline-block;
+      margin: 0.5rem 1rem 0.5rem 0;
+      padding: 0.6rem 1rem;
+      background-color: #7a6ff0;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .contact-buttons a:hover {
+      background-color: #5e59c7;
+    }
+
+    footer {
+      background-color: #1b1a40;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .hero {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero img {
+        margin-top: 1.5rem;
+      }
+
+      nav {
+        margin-top: 1rem;
+      }
+    }
